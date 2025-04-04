@@ -27,4 +27,4 @@ for image_file in image_files:
 df = pd.DataFrame(bounding_boxes, columns=['Image', 'Bottom-Left', 'Top-Right'])
 df.to_csv('bounding_boxes.csv', index=False)
 
-print("done ")
+print("done.")
